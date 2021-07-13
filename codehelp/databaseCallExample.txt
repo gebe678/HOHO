@@ -1,0 +1,11 @@
+    // $query = "SELECT Cruise_Line_Name FROM cruise_line WHERE Cruise_Line_Name LIKE 'princess'";
+    // $result = $connect->query($query);
+
+    // if($result->num_rows > 0)
+    // {
+    //     while($row = $result->fetch_assoc())
+    //     {
+    //        $item = $row["Cruise_Line_Name"];
+    //        echo json_encode($item);
+    //     }
+    // }

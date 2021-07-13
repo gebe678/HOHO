@@ -1,0 +1,15 @@
+              <!-- <div class="form-check">
+                <input type="radio" id="radioChild" name="ticketTypeSelect" value="Child" class="form-check-input">
+                <label for="radioChild" class="form-check-label">Child - $39</label>
+              </div>  </form-check> 
+
+              <div class="form-check">
+                <input type="radio" id="radioAdult" name="ticketTypeSelect" value="Adult" class="form-check-input" selected>
+                <label for="radioAdult" class="form-check-label">Adult - $59</label>
+              </div>  </form-check>
+
+              <div class="form-check">
+                <input type="radio" id="radioSenior" name="ticketTypeSelect" value="Senior" class="form-check-input">
+                <label for="radioSenior" class="form-check-label">Senior - $39</label>
+              </div> </form-check> 
+              <label for="dateChoice">Dates</label> -->
