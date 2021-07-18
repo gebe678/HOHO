@@ -31,9 +31,13 @@
     {
         return $_POST["dateChoice"];
     }
-
-    echo $_POST["ticketPrice"] . " " . getEmail();
     
+    function getTicketPrice()
+    {
+        return $_POST["ticketPrice"];
+    }
+
+    echo getTicketPrice();
 
     closeConnection($connect);
 ?>
