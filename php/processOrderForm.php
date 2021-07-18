@@ -32,7 +32,7 @@
         return $_POST["dateChoice"];
     }
 
-    echo getEmail();
+    echo $_POST["ticketPrice"] . " " . getEmail();
     
 
     closeConnection($connect);

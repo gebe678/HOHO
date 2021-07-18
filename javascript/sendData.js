@@ -11,12 +11,16 @@ function sendDataMain()
 
         let formData = new FormData(form);
 
+        let sendPrice = parseFloat(price.match(/\d+/g));
+        formData.append("ticketPrice", sendPrice);
+
         let xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function()
         {
             if(this.readyState === 4 && this.status === 200)
             {
-                console.log(this.responseText + " " + parseFloat(price.match(/\d+/g)));
+                console.log(this.responseText);
+                //location.href="paymentpage.html";
             }
         };
         

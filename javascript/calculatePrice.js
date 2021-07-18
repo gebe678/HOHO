@@ -1,4 +1,4 @@
-let price = 60;
+let price = "60";
 
 function checkForPriceChange()
 {
