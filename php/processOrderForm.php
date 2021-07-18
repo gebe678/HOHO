@@ -32,6 +32,7 @@
         return $_POST["dateChoice"];
     }
 
+    echo getEmail();
     
 
     closeConnection($connect);

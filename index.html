@@ -100,7 +100,7 @@
                 <label for="numberAdult" class="col-sm-3 col-form-label">Adult Tickets<br/> age 12+</label>
 
                 <div class="col-sm-9">
-                  <input type="number" name="numberAdult" class="form-control" min="0" value="1" id="numberAdult">
+                  <input type="number" name="numberAdult" class="form-control price_change" min="0" value="1" id="numberAdult">
                 </div> <!-- </col-sm-9> -->
 
               </div> <!-- </form-group-row> -->
@@ -110,7 +110,7 @@
                 <label for="numberChild" class="col-sm-3 col-form-label">Child Tickets<br/> age 5+ </label>
 
                 <div class="col-sm-9">
-                  <input type="number" name="numberChild" class="form-control" min="0" value="0" id="numberChild">
+                  <input type="number" name="numberChild" class="form-control price_change" min="0" value="0" id="numberChild">
                 </div> <!-- </col-sm-9> -->
 
               </div> <!-- </form-group-row> -->
@@ -120,7 +120,7 @@
                 <label for="numberSenior" class="col-sm-3 col-form-label">Senior Tickets<br/> age 65+</label>
 
                 <div class="col-sm-9">
-                  <input type="number" name="numberSenior" class="form-control" min="0" value="0" id="numberSenior">
+                  <input type="number" name="numberSenior" class="form-control price_change" min="0" value="0" id="numberSenior">
                 </div> <!-- </col-sm-9> -->
 
               </div> <!-- </form-group-row> -->
@@ -131,11 +131,11 @@
 
                 <div class="col-sm-9">
 
-                  <select name="ticketValidTime" id="ticketValidTime" class="form-control">
+                  <select name="ticketValidTime" id="ticketValidTime" class="form-control price_change">
 
-                    <option>1 Day</option>
-                    <option>1 Week</option>
-                    <option>1 Year</option>
+                    <option value="day">1 Day</option>
+                    <option value="week">1 Week</option>
+                    <option value="year">1 Year</option>
 
                   </select>
 
@@ -155,7 +155,12 @@
 
               </div> <!-- </form-group-row> -->
 
-              <input type="submit" id="submitButton" class="form-control" value="Add to Cart">
+              <div class="input-group mb-3">
+                <input type="submit" id="submitButton" class="form-control" value="Add to Cart">
+                <span class="input-group-text" id="priceDisplay">US$60</span>
+              </div>
+              
+
             </form>
               
             </div> <!-- </form-group -->
@@ -173,8 +178,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Custom Javascript -->
+    <script src="javascript/calculatePrice.js" defer></script>
     <script src="javascript/sendData.js" defer></script>
     <script src="javascript/main.js" defer></script>
+
 
   </body>
 
