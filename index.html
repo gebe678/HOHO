@@ -47,16 +47,30 @@
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="paymentPage.html">Pricing</a>
+                  <a class="nav-link" href="">Pricing</a>
                 </li>
 
                 <li class="nav-item">
                   <a class="nav-link disabled" href="#">Disabled</a>
                 </li>
-
               </ul> <!-- navbar-nav -->
 
             </div> <!-- </collapse navbar-collapse> -->
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+              <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item  ml-auto">
+                  <a class="nav-link" href="paymentPage.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                  </svg> <span class="numItemsInCart" sytle="border-radius: 30px; width:30; height:30;">0</span></a>
+                </li>
+
+              </ul> <!-- </navbar-nav> -->
+
+            </div> <!-- </collapse navbar-collapse> -->
+
           </nav>
 
         </div> <!-- </col-lg-12 -->
@@ -157,7 +171,7 @@
 
               <div class="input-group mb-3">
                 <input type="submit" id="submitButton" class="form-control" value="Add to Cart">
-                <span class="input-group-text" id="priceDisplay">US$60</span>
+                <span class="input-group-text" id="priceDisplay">US$59</span>
               </div>
               
 
@@ -178,9 +192,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Custom Javascript -->
-    <script src="javascript/calculatePrice.js" defer></script>
-    <script src="javascript/sendData.js" defer></script>
-    <script src="javascript/main.js" defer></script>
+    <script src="javascript/indexJS/calculatePrice.js" defer></script>
+    <script src="javascript/indexJS/sendData.js" defer></script>
+    <script src="javascript/indexJS/main.js" defer></script>
 
 
   </body>

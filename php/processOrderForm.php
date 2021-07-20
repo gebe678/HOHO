@@ -39,5 +39,5 @@
 
     echo getTicketPrice();
 
-    closeConnection($connect);
+    mysqli_close($connect);
 ?>

@@ -1,4 +1,4 @@
-let price = "60";
+let price = "59";
 
 function checkForPriceChange()
 {
@@ -10,7 +10,7 @@ function checkForPriceChange()
     {
         priceChangeForms[i].addEventListener("change", function(){
 
-            let formData = new FormData(form);
+            let priceForm = new FormData(form);
 
             let xhttp = new XMLHttpRequest();
 
@@ -23,7 +23,7 @@ function checkForPriceChange()
             };
 
             xhttp.open("POST", "php/calculatePrice.php", true);
-            xhttp.send(formData);
+            xhttp.send(priceForm);
         });
     }
 }

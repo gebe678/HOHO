@@ -1,0 +1,15 @@
+change duration dropdown to range 1 - 7
+update duration table to hold arrival and departure departure
+departure data is calcuated based on selected duration and arrival departure
+add in scaling discount based on ticket duration
+2&3 - 20
+4&5&6 - 30
+7 - 50
+
+Add in payment page (add onto template)
+
+Show discount percentage like the price in submit button next to ticket duration range form element
+
+Think about front end design (pictures product descriptions)
+
+Go to paymentPage.hmtl when the add to cart button is clicked on the main page
