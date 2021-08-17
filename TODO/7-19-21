@@ -1,5 +1,6 @@
-change duration dropdown to range 1 - 7
-update duration table to hold arrival and departure departure
+change duration dropdown to range 1 - 7 DONE
+
+update duration table to hold arrival and departure departure DONE
 departure data is calcuated based on selected duration and arrival departure
 add in scaling discount based on ticket duration
 2&3 - 20

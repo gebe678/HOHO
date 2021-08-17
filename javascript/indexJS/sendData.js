@@ -28,7 +28,7 @@ function sendDataMain()
                 }
                 console.log(this.responseText);
                 localStorage.setItem("ticketPurchaseData", this.responseText);
-                location.href="paymentPage.html";
+                //location.href="paymentPage.html";
             }
         };
         
